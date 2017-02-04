@@ -2,41 +2,82 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Accordion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/flexboxgrid.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<!-- <div class="ac-wrapper">
-		<div class ="ac-tab">
-			<input type="radio" name ="accord" id ="acc" class ="acc-logic">
-			<label for="acc" class ="ac-head">Ссылка</label>
-			<div class="ac-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fug dolor sit amet, consectetur adipisicing elit. Natus fuga dolore at harum facere mollitia ea unde !</p>
+	<div class="container-fluid">
+
+		<div class="row header">
+			<div class="col-xs-12 center-xs">
+				<div class="header-nav">
+					<input type="checkbox" id ="nav-select" class ="checkbox-input">
+					<label for="nav-select" class ="checkbox-label"></label>
+					<ul class="header-container">
+						<li class="header-item"><a href="#" class ="header-link">home</a></li>
+						<li class="header-item"><a href="#" class ="header-link">about</a></li>
+						<li class="header-item"><a href="#" class ="header-link">skills</a></li>
+						<li class="header-item"><a href="#" class ="header-link">projects</a></li>
+						<li class="header-item"><a href="#" class ="header-link">contact</a></li>
+					</ul>
+				</div>
+				<div class="header-info">
+					<h1 class="header-info_head">I'm Denys Yarovyi.</h1>
+					<p class="header-info__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis blanditiis nisi, eius placeat quasi quia dicta consequatur ratione quam sequi qui, doloremque enim. Rerum, amet error dolore, aspernatur labore asperiores.</p>
+				</div>
+				
 			</div>
-		</div>
-		<div>
-			<input type="radio" name ="accord" id ="acc1" class ="acc-logic">
-			<label for="acc1" class ="ac-head">Ссылка</label>
-			<div class="ac-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fuga dolore at harum facere mollitia ea unde quas dignissimos quos impedit minus nemo inventore, ullam voluptas amet quod nobis porro!</p>
-			</div>
-		</div>
-		<div>
-			<input type="radio" name ="accord" id ="acc2" class ="acc-logic">
-			<label for="acc2" class ="ac-head">Ссылка</label>
-			<div class="ac-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fuga dolore at harum facere mollitia ea unde quas dignissimos quos impedit minus nemo inventore, ullam voluptas amet quod nobis porro!</p>
-			</div>
+
 		</div>
 		
+		<div class="row about">
+			<div class="col-xs-12">
+				<div class="about_info">
+					<h1 class="about__header">About me</h1>
+					<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates similique recusandae perspiciatis quis harum culpa, repellat at laboriosam adipisci architecto enim vitae labore, totam et rerum aspernatur iure quo incidunt?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates similique recusandae perspiciatis quis harum culpa, repellat at laboriosam adipisci architecto enim vitae labore, totam et rerum aspernatur iure quo incidunt?</p>
+					<h1 class="about__header">Contact Details</h1>
+					<ul class ="about-list">
+						<li class ="about-item">Denys Yarovyi</li>
+						<li class ="about-item">140 Boulevar st.</li>
+						<li class ="about-item">New York, CA 81293 US</li>
+						<li class ="about-item">(431)355-1192</li>
+						<li class ="about-item">bestweb@post.com</li>
+					</ul>
+				</div>
+			</div>
+				
+		</div>
+		
+		<div class="row skills">
+			<div class="col-xs-12 col-md-3 center-xs">
+				<span class="skills__skill">Skills</span>
+			</div>
 
-	</div>	 -->
+			<div class="col-xs-12 col-md-6">
+				<p class="skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam rerum laboriosam provident reprehenderit numquam repudiandae cupiditate nesciunt non asperiores alias iure eligendi excepturi expedita nobis commodi dignissimos voluptas, illum quam?</p>
+				<ul class="skills-container">
+					<li class="skills-item">html5</li>
+					<li><div class="skills-item-unreached"><div class="skills-item-reached"></div></div></li>
+					<li class="skills-item">css</li>
+					<li><div class="skills-item-unreached"><div class="skills-item-reached css-reached"></div></div></li>
+					<li class="skills-item">photoshop</li>
+					<li><div class="skills-item-unreached"><div class="skills-item-reached photoshop-reached"></div></div></li>
+					<li class="skills-item">jquery</li>
+					<li><div class="skills-item-unreached"><div class="skills-item-reached jquery-reached"></div></div></li>
+					<li class="skills-item">wordpress</li>
+					<li><div class="skills-item-unreached"><div class="skills-item-reached wordpress-reached"></div></div></li>
+				</ul>
+			</div>
 
-		<div class ="box"></div>
-		<div class ="box"></div>
-		<div class ="box"></div>
+		</div>
 
+
+	</div>
 
 </body>
-</html>	
+</html>
