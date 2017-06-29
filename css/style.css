@@ -6,11 +6,8 @@
 
 html,
 body {
-  height: 100%;
+  height: 100vh;
   font-family: 'FuturaLT';
-}
-body{
-  /*position: relative;*/
 }
 .grid-wrapper{
   height: 100vh;
@@ -39,7 +36,6 @@ body{
   background: #fff;
 }
 .read-more{
-  /*height: 10%;*/
   background: #000;
   position: absolute;
   bottom: 0; 
@@ -65,7 +61,6 @@ body{
 }
 .left-sidebar-text, .right-sidebar-text{
   width: 100%;
-  height: 40vh;
 }
 .left-sidebar-comment-header, .main-content-comment-header, .right-sidebar-comment-header{
   color: #8d8f91;
